@@ -7,7 +7,7 @@ import styles from "../styles/components/weather.module.css"
 
 const weather = () => {
     return(
-        <div>
+        <div className={styles.wea}>
             <div className={styles.hokkaido}>
                 <p>北海道の天気は</p>
                 <p>{hokkaidoWeather}</p>
@@ -31,5 +31,6 @@ const weather = () => {
         </div>
     )
 }
+
 
 export default weather

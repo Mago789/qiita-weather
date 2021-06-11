@@ -18,19 +18,15 @@ const hokkaidoWeather = async () =>{
         }
     };
 
-    // axios.request(options).then(function (response) {
-    //     console.log(response.data);
-    // }).catch(function (error) {
-    //     console.error(error);
-    // });
-
     const res = await axios.get(
         'https://community-open-weather-map.p.rapidapi.com/find',
         config
     )
 
+    const response = JSON.stringify(res);
+
     console.log(res)
-    return res
+    return response
 }
 
 export default hokkaidoWeather
