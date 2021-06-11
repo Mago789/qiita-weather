@@ -1,0 +1,248 @@
+.main{
+    background-color: rgb(245, 245, 245);
+}
+
+.mainNaka{
+    display: flex;
+    margin: 0px 175px;
+}
+
+.mainFlex{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 50px;
+    position: sticky;
+    top: 0px;
+    height: 100%;
+}
+
+.borderHiku{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.qFeed{
+    margin-top: 10px;
+}
+
+.hovTit{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hover{
+    color: black;
+    margin-top: 8px;
+    font-size: 12px;
+    padding: 3px 8px 3px 3px;
+}
+.hover:hover{
+    background-color: darkgray;
+}
+
+.trend{
+    background-color: rgba(88, 226, 19, 0.5);
+    color:black;
+    margin-top: 8px;
+    font-size: 12px;
+    padding: 3px 8px 3px 3px;
+}
+.trend:hover{
+    background-color: darkgray;
+}
+
+.trendArticle{
+    width: 60%;
+    margin: 50px 10px 50px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.trendFlex{
+    display: flex;
+    align-items: center;
+}
+
+.trendWard{
+    font-size: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+.trendComment{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.weath{
+    border: solid 1px black;
+    background-color: aqua;
+    width: 48px;
+    height: 24px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.weath:hover{
+    background-color: rgb(142, 255, 255);
+}
+
+.taguFlex{
+    display: flex;
+}
+
+.tagu1{
+    color: chartreuse;
+    margin: 0px 10px;
+    font-size: 12px;
+    margin-left: 24px;
+    padding: 0px 24px 8px 24px;
+    cursor: pointer;
+    border-bottom: solid 1px chartreuse;
+}
+
+.tagu{
+    color: darkgray;
+    margin: 0px 10px;
+    font-size: 12px;
+    margin-left: 24px;
+    padding: 0px 24px 8px 24px;
+    cursor: pointer;
+    border-bottom: solid 1px white;
+}
+
+.tagu:hover{
+    color: chartreuse;
+    border-bottom: solid 1px chartreuse;
+}
+
+.articleWaku{
+    margin-left: 10px;
+    border-top: solid 2px rgb(240, 240, 240);
+}
+
+.articleFlex{
+    display: flex;
+    margin: 5px 0px;
+}
+
+.articleColor{
+    color: darkgray;
+}
+
+.articleMain{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.articleMain:hover{
+    text-decoration: underline solid 1px black;
+}
+
+
+.articleTagu{
+    font-size: 15px;
+    margin: 5px 0px;
+    display: flex;
+}
+.articleTagu p{
+    cursor: pointer;
+}
+.articleTagu p:hover{
+    text-decoration: underline;
+}
+
+.adv{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.advImg{
+    width: 100%;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.event{
+    background-color: white;
+    padding: 16px 16px;
+}
+.eventFont{
+    font-size: 12px;
+    color: gray;
+}
+.eveTit{
+    cursor: pointer;
+}
+.eveTit:hover{
+    text-decoration: underline;
+}
+
+.adEve{
+    padding: 16px;
+    border: solid 1px chartreuse;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.adFlex{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.yajirushi{
+    background-color: greenyellow;
+    font-size: 12px;
+    color: white;
+}
+.adFont{
+    color: chartreuse;
+    font-size: 12px;
+    cursor: pointer;
+}
+.adFont:hover{
+    text-decoration: underline chartreuse;
+}
+.adArt{
+    font-size: 12px;
+}
+.adArt2{
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.adTit{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reco{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.recoTit{
+    margin-bottom: 10px;
+}
+
+.recoArt{
+    border-top: solid 1px rgb(190, 190, 190);
+    padding: 10px 4px;
+}
+.recoCont{
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.recoCont:hover{
+    text-decoration: underline;
+}
+.recoTime{
+    font-size: 12px;
+    color: gray;
+}

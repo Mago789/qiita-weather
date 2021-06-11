@@ -1,0 +1,100 @@
+.footer{
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.footerFlex{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.foot{
+    width: 50%;
+}
+
+.footQiita{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.footComment{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.footFlex{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.footFlex p{
+    margin: 10px;
+}
+
+.footTitle{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.finFlex{
+    display: flex;
+}
+
+.about{
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    color: rgb(190, 190, 190);
+}
+
+.aboutFlex{
+    display: flex;
+    width: 50%;
+}
+
+.aboutTitle{
+    font-size: 18px;
+    width: 50%;
+    font-weight: 500;
+}
+
+.release{
+    font-size: 13px;
+    margin-right: 10px;
+    color: rgb(190, 190, 190);
+}
+
+.incrementsFlex{
+    display: flex;
+    width: 50%
+}
+
+.increments{
+    font-size: 13px;
+    margin-right: 15px;
+    color: rgb(190, 190, 190);
+}
+
+.incrementsTitle{
+    font-size: 18px;
+    width: 50%;
+    font-weight: 500;
+}
+
+.qiitaOther{
+    font-size: 13px;
+    color: rgb(190, 190, 190);
+}
+
+.under{
+    cursor: pointer;
+}
+.under:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,240 @@
+.header{/* headerの背景と文字 */
+    background-color: rgb(108, 206, 9);
+    color: white;
+}
+
+.headerMargin{
+    margin: 0px 175px;
+    padding-bottom: 0px;
+}
+
+.buttonFlex{/* headerのボタン等のflex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title {/* タイトルのフォント、flex */
+    width: 70%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.qiita{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9,9,9,0.3);
+    border:  solid 1px black;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.keyward{/* キーワードの中の文字を大きくしたい */
+    height: 25px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.yoko{/* コメントと入力フォームをflexする */
+    display: flex;
+}
+
+.comment{/* headerを左右半分に分ける */
+    width: 70%;
+}
+.commentTitle{/* commentの題名部分を中央揃えにする */
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.commentMargin{/* commentの文章を中央揃えにする等 */
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+.loginWaku{/* 入力フォーム部分の大きさを定義する */
+    width: 30%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.buttonFlex2{/* SNSのボタンを横並びにする */
+    display: flex;
+    justify-content: space-between;
+}
+.github{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: white;
+}
+.github:hover{
+    background-color: rgb(230,230,230);
+}
+.twitter{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: white;
+}
+.twitter:hover{
+    background-color: rgb(230,230,230);
+}
+.google{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: white;
+}
+.google:hover{
+    background-color: rgb(230,230,230);
+}
+
+/* 入力項目 */
+.userInput{/* ユーザー名のデザイン */
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+.userAbs{/* ユーザー名のデザインを調整する */
+    position: absolute;
+    left: -90px;
+}
+.user{
+    color: white;
+    background-color: rgb(108, 206, 9);
+    border: solid 1px white;
+    padding: 4px;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: rgba(256, 256, 256, 0.5);
+}
+.mailInput{/* メールアドレスのデザイン */
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+.mailAbs{/* メールアドレスのデザインを調整する */
+    position: absolute;
+    left: -120px;
+}
+.passInput{/* パスワードのデザイン */
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+.passAbs{/* パスワードのデザインを調整する */
+    position: absolute;
+    left: -90px;
+}
+
+.tyui{
+    font-size: 10px;
+}
+
+.center{/* ORの文字を中央揃えにする */
+    text-align: center;
+    margin: 10px 0px;
+    color: rgb(210,210,210);
+}
+
+.input{/* 入力フォームの大きさ */
+    width: 100%;
+}
+
+.signup{
+    width:80px;
+    height: 35px;
+    background-color: rgb(108, 206, 9);
+    border: solid 1px white;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: rgba(256, 256, 256, 0.5);
+}
+
+.agree{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.kiyaku{
+    color: blue;
+    cursor: pointer;
+}
+.kiyaku:hover{
+    text-decoration: underline blue;
+}
+
+.agreeColor{
+    font-size: 12px;
+}
+
+.privacy{
+    margin-bottom: 10px;
+}
+
+.prai{
+    color: blue;
+    cursor: pointer;
+}
+.prai:hover{
+    text-decoration: underline blue;
+}
+
+.privacyColor{
+    font-size: 12px;
+}
+
+.robotWaku{
+    border: solid 2px rgb(190, 190, 190);
+    background-color: white;
+}
+
+.robot{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.robotLabel{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-left: 10px;
+}
+
+.button2{
+    color: white;
+    background-color: rgb(108, 206, 9);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button2:hover{
+    text-decoration: underline;
+}
