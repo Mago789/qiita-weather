@@ -4,7 +4,7 @@ const hiroshimaWeather = async () =>{
 
     const config = {
         params: {
-            q: 'Fukuoka',
+            q: 'Hiroshima',
             cnt: '34',
             mode: 'null',
             lon: '132',
@@ -23,10 +23,8 @@ const hiroshimaWeather = async () =>{
         config
     )
 
-    const response = JSON.stringify(res);
-
     console.log(res)
-    return response
+    return res
 }
 
 export default hiroshimaWeather

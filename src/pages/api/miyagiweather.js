@@ -4,7 +4,7 @@ const miyagiWeather = async () =>{
 
     const config = {
         params: {
-            q: 'Fukuoka',
+            q: 'miyagi',
             cnt: '33',
             mode: 'null',
             lon: '129',
@@ -23,10 +23,8 @@ const miyagiWeather = async () =>{
         config
     )
 
-    const response = JSON.stringify(res);
-
     console.log(res)
-    return response
+    return res
 }
 
 export default miyagiWeather

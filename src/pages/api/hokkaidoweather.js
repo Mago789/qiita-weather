@@ -4,7 +4,7 @@ const hokkaidoWeather = async () =>{
 
     const config = {
         params: {
-            q: 'Fukuoka',
+            q: 'hokkaido',
             cnt: '43',
             mode: 'null',
             lon: '140',
@@ -23,10 +23,8 @@ const hokkaidoWeather = async () =>{
         config
     )
 
-    const response = JSON.stringify(res);
-
     console.log(res)
-    return response
+    return res
 }
 
 export default hokkaidoWeather

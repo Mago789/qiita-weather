@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const fukuokaWeather = async () =>{
-
     const config = {
         params: {
             q: 'Fukuoka',
@@ -23,10 +22,8 @@ const fukuokaWeather = async () =>{
         config
     )
     
-    const response = JSON.stringify(res);
-
     console.log(res)
-    return response
+    return res
 }
 
 export default fukuokaWeather

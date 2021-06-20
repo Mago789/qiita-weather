@@ -1,11 +1,10 @@
-import { useState } from "react"
 import styles from "../styles/components/main.module.css"
-import weather from "./weather.js"
+import Weather from "./weather.js"
 // import advImg1 from "../../public/images/hoge.jpeg"
 // import advImg2 from "../components/header.js"
 
 const Main = () => {
-    const [count,setCount] = useState();
+
     return (
         <main className={styles.main}>
             <div className={styles.mainNaka}>
@@ -33,7 +32,6 @@ const Main = () => {
                         <div className={styles.taguFlex}>
                             <p className={styles.tagu1}>全て</p>
                             <p className={styles.tagu}>タグ</p>
-                            <button className={styles.weather}　onClick={() => setCount(weather)}>天気</button>
                         </div>
                     </div>
                     <div className={styles.articleWaku}>
@@ -297,7 +295,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className={styles.adv}>
-                    <p>{count}</p>
+                    <Weather />
                     {/* <img className={styles.advImg} src={advImg1} alt="qiita-adv" /> */}
                     <div className={styles.event}>
                         <p className={styles.eventMargin}>開催中イベント</p>

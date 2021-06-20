@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const tokyoWeather = async () =>{
+const aitiWeather = async () =>{
 
     const config = {
         params: {
-            q: 'Fukuoka',
+            q: 'aiti',
             cnt: '35',
             mode: 'null',
-            lon: '138',
+            lon: '137',
             type: 'link, accurate',
             lat: '0',
             units: 'imperial, metric'
@@ -27,4 +27,4 @@ const tokyoWeather = async () =>{
     return res
 }
 
-export default tokyoWeather
+export default aitiWeather
