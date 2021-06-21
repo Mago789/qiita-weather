@@ -4,7 +4,7 @@ const tokyoWeather = async () =>{
 
     const config = {
         params: {
-            q: 'Fukuoka',
+            q: 'Tokyo',
             cnt: '35',
             mode: 'null',
             lon: '138',
@@ -25,6 +25,7 @@ const tokyoWeather = async () =>{
 
     console.log(res)
     return res
+
 }
 
 export default tokyoWeather

@@ -4,7 +4,7 @@ const hokkaidoWeather = async () =>{
 
     const config = {
         params: {
-            q: 'hokkaido',
+            q: 'Hokkaido',
             cnt: '43',
             mode: 'null',
             lon: '140',
@@ -25,6 +25,12 @@ const hokkaidoWeather = async () =>{
 
     console.log(res)
     return res
+
+    // axios.request(options).then(function (response) {
+    //     console.log(response.data);
+    // }).catch(function (error) {
+    //     console.error(error);
+    // });
 }
 
 export default hokkaidoWeather

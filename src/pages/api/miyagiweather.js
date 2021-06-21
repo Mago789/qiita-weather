@@ -4,7 +4,7 @@ const miyagiWeather = async () =>{
 
     const config = {
         params: {
-            q: 'miyagi',
+            q: 'Miyagi',
             cnt: '33',
             mode: 'null',
             lon: '129',

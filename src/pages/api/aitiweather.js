@@ -4,7 +4,7 @@ const aitiWeather = async () =>{
 
     const config = {
         params: {
-            q: 'aiti',
+            q: 'Aiti',
             cnt: '35',
             mode: 'null',
             lon: '137',
