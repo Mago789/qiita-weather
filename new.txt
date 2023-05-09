@@ -1,3 +1,5 @@
 push、pull練習
 
 pullrequest練習
+
+プルリクに追従
